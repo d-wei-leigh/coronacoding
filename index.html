@@ -1,54 +1,244 @@
 <!DOCTYPE html>
 <html>
-  <head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width" />
-   <title>corona coding</title>
-   <style type="text/css" media="screen">
-     body{
-       background-color: #ede9df;
-       padding: 10px;
-       font-size: 150%;
-     }
-   </style>
-	 <link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">
-	 <link rel="stylesheet" href="style.css" type="text/css" media="all">
-  </head>
-  <body>
+<head>
+	<link rel="shortcut icon" href="{{url_for('static', filename='MountAN_by_Deiwei Favicon.ico')}}">
+	<title>MountAN by dleigh20</title>
+	<link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous">
+  </script>
+</head>
+<body>
+<div class="contain">
+	<div class="container">
+		<div class="blockything">
+			<div class="highlight">
+				<div class="blockything">
+				<h1>&#x2671; MountAN by dleigh20 &#x2671;</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<p>
 
-	<div id="title">
-		<h1>Corona Coding</h1>
-		<p>Purpose: Learn some python, have some fun.</p>
-		<p>Note: please contact Alek if you have ideas for future topics and problems</p>
-    <p><a href="feedback.html">Feedback form</a></p>
+	</p>
+	<div class="down3">
+		<div class="container">
+			<div class="highlight">
+				<div class="container">
+				<h1><font size="5">&#x2742; A Little About Me &#x2742;</font></h1>
+				</div>
+			</div>
+				<ul>
+					<li>I fence (epee! --|)--------- )</li>
+					<li>I am a flutist</li>
+					<li>I enjoy doing Chinese Yoyo (videos on my youtube!)</li>
+					<li>I believe in Christ</li>
+					<li>I love my friends</li>
+			</ul>
+		</div>
+	</div>
+	<p>
+		
+	</p>
+	<div class="down4">
+		<div class="down3">
+			<div class="highlight">
+				<div class="down3">
+				<h1><font size="5">&#x1fa80; Yoyo Sample! &#x1fa80;</font></h1>
+				</div>
+			</div>
+			<p>
+
+
+
+
+			</p>
+		<video class="video" width="480" height="640" controls>
+			<source src="{{url_for('static', filename='Lightup Yoyo.mp4')}}" type="video/mp4">
+			</video>
+		</div>
 	</div>
 
-	 <div class="container">
-		 <ul>
-			 <li><a href="day1/"><div class="box">day1</div></a></li>
-			 <li><a href="day2/"><div class="box">day2</div></a></li>
-			 <li><a href="day3/"><div class="box">day3</div></a></li>
-			 <li><a href="day4/"><div class="box">day4</div></a></li>
-			 <li><a href="day5/"><div class="box">day5</div></a></li>
-			 <li><a href="day6/"><div class="box">day6</div></a></li>
-			 <li><a href="day7/"><div class="box">day7</div></a></li>
-		 </ul>
-		 <br>
-		 <ul>
-			 <li><a href="key1/"><div class="box">key1</div></a></li>
-			 <li><a href="key2/"><div class="box">key2</div></a></li>
-			 <li><a href="key3/"><div class="box">key3</div></a></li>
-			 <li><a href="key4/"><div class="box">key4</div></a></li>
-			 <li><a href="key5/"><div class="box">key5</div></a></li>
-			 <li><a href="key6/"><div class="box">key6</div></a></li>
-			 <li><a href="key7/"><div class="box">key7</div></a></li>
-		 </ul>
-	 </div>
 
-	 <div id="footer">
-		 Website designed by <a href="http://kevinhsu.net/">Kevin Hsu</a><br>
-		 Content developed by <a href="https://awestover.github.io/">Alek Westover</a> & Max Vigneras
-	 </div>
+	<p>
 
-  </body>
+	</p>
+		<div class="down5">
+		<div class="down4">
+			<div class="highlight">
+				<div class="down4">
+			<p><h1><font size="5">&#x1f3db; Some Pok&#x00e9;mon Pictures &#x1f3db;</font></h1></p>
+				</div>
+			</div>
+			<p>
+
+
+
+
+			</p>
+			<div id="picturediv">
+				<p><font color="#d9f1f1">berb</font></p>
+				<!-- how do I add white space to the top and bottom to create equal margins all around? -->
+				<img id="birb" src="{{url_for('static', filename='gangangbirdwitharms.jpg')}}" alt="berb"/>
+				<p>
+					<h3>Exhibit 1: "gangang"</h3>
+				</p>
+			</div>
+			<p>
+
+
+
+
+			</p>
+			<div id="picturediv">
+				<p><font color="#d9f1f1">garydos</font></p>
+				<img id="garydos" src="{{url_for('static', filename='garydos.jpeg')}}" alt="garydos"/>
+				<p>
+					<h3>Exhibit 2: "Garydos"</h3>
+				</p>
+			</div>
+			<p>
+
+
+
+
+			</p>
+			<div id="picturediv">
+				<p><font color="#d9f1f1">greninja</font></p>
+				<img id="Greninja" src="{{url_for('static', filename='Greninja by r:Bluetwoen.jpg')}}" alt="Greninja"/>
+				<p>
+					<h3>Exhibit 3: Greninja art by u/Bluetwoen</h3>
+				</p>
+			</div>
+			<p>
+
+
+
+
+			</p>
+			<div id="picturediv">
+				<p><font color="#d9f1f1">chonk</font></p>
+				<img id="pikachonk" src="{{url_for('static', filename='pikachonk.jpg')}}" alt="pikachonk"/>
+				<p>
+					<h3>Exhibit 4: "pikachOnk"</h3>
+				</p>
+			</div>
+			<p>
+
+
+
+
+			</p>
+			<div id="picturediv">
+				<p><font color="#d9f1f1">shiny</font></p>
+				<img id="shiny" src="{{url_for('static', filename='Shiny lobster.png')}}" alt="Blue Lobster"/>
+				<p>
+					<h3>Exhibit 5: Shiny 'mon in real life (1 in 2 million)</h3>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<p>
+
+	</p>
+
+	<div class="down6">
+		<div class="down5">
+			<div class="highlight">
+				<div class="down5">
+				<h1><font color="#b3e8ff" size="5">Connect With Me! (from more than 2 meters apart of course)</font></h1>
+				</div>
+			</div>
+			<p>
+
+
+
+
+			</p>
+			<div class="highlight">
+				<div class="down5">
+				<a href="https://www.linkedin.com/in/david-leigh-881a44172/"><h2><font color="#b3e8ff">&#x1f9d1;&#x1f3fb;&#x200d;&#x1f393;&rarr; David's LinkedIN &larr;&#x1f9d1;&#x1f3fb;&#x200d;&#x1f393;</font></h2>
+				</a>
+			</div>
+		</div>
+		<p>
+
+
+
+
+		</p>
+		<div class="highlight">
+				<div class="down5">
+				<a href="https://www.youtube.com/channel/UC9VZD6Sy_sd9gUylHoODJxg"><h2><font color="#b3e8ff">&#x1f9c7;&rarr; YouTube Channel &larr;&#x1f9c7;</font></h2>
+				</a>
+			</div>
+		</div>
+		<p>
+
+
+
+
+			</p>
+		<div class="highlight">
+				<div class="down5">
+				<a href="https://www.facebook.com/david.leigh.lai"><h2><font color="#b3e8ff">&#x1f93a;&rarr; David's Facebook &larr;&#x1f93a;</font></h2>
+				</a>
+			</div>
+		</div>
+		</div>
+	</div>
+	<p>
+
+
+	</p>
+<div class="comments">
+
+<h1><font size="5">&#x21e3; Leave comments here! &#x21e3;</font></h1>
+  	<center><input type="text" value="username" name="username" id="username"/>
+  	<!--<input type="password" value="password" name="password" id="password"/>-->
+  	<input type="text" value="comment" name="comment" id="comment" />
+<button onclick="submitFunction()">Submit</button></center>
+
+</div>
+
+<div id="comments">
+
+</div>
+
+</div>
+
+<script>
+	function submitFunction(){
+		alert("thanks!");
+		$.post("/data", {
+			"username": $("#username").val(),
+			//"password": $("#password").val(),
+			"comment": $("#comment").val()
+		}, function(data){
+			alert("hmm");
+			alert(data);
+		});
+	}
+</script>
+
+<script>
+	$.get("getComments", function(data){
+		for (let i = data.length-1; i > Math.max(0, data.length-6); i--){
+			let htmlElement = `<div class="comments"><h4>name: ${data[i].name}</h4> <p>comment: ${data[i].comment}</p></div>`; $("#comments").append(htmlElement);
+		}
+	});
+</script>
+
+</div>
+<div id="footer">
+		<p><font size="5">By </font><img src="{{url_for('static', filename='byMountAN.png')}}" alt="Mountain" align="middle" style="width:135px;height:90px">
+		</p>
+</div>	
+</body>
+
+
 </html>

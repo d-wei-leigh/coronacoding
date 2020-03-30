@@ -1,74 +1,141 @@
-
-body {
-	color: #00FFF2;
-	background: url(img/background.png) no-repeat center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	font-size: 24px;
-	font-family: 'Handlee', cursive;
-	overflow-x: hidden;
-}
-
-#title {
-	margin-left: 10vw;
-	margin-right: 10vw;
-	margin-top: 10vh;
-	line-height: 16px;
-}
-
-#title h1{
-	font-size: 50px;
+.contain {
+	background-color: #DFF0E2;
+	padding: 9px;
 }
 
 .container {
+	padding: 9px;
+	background-color: #afeadc;
+}
+
+.blockything {
+	background-color: #cfffe5;
+	padding: 9px;
+}
+
+.down3 {
+	background-color: #3eb489;
+	padding: 9px;
+}
+
+.down4 {
+	background-color: #137a63;
+	padding: 9px;
+}
+
+.down5 {
+	background-color: #0a3a2a;
+	padding: 9px;
+}
+
+.down6 {
+	background-color: #933a16;
+	padding: 9px;
+}
+
+.comments {
+	background-color: #afeadc;
+	color: #041e42;
+	padding: 9px;
+	margin: 10px;
+	border-radius: 15px;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.highlight {
+	background-color: #cfb997;
+	padding: 3px;
+}
+
+h1 {
+	font-family: "Courier New", Courier, monospace;
 	text-align: center;
+	color: #041e42;
 }
 
 ul {
-	display: inline-block;
-	margin: 5px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #041e42;
+	list-style-type:none;
 }
 
-li {
-	margin-left: 10px;
+li:before {
+	content: '\1f433';
+	margin-left:-15px;
 	margin-right: 10px;
-	float: left;
-	list-style-type: none;
 }
 
-li a {
-	text-decoration: none;
+.video {
 	display: block;
-	border: 3px solid #00FFF2;
-	color: #00FFF2;
-	width: 120px;
-	height: 120px;
-	background-color: rgba(0,0,0,0.7);
+	width: auto;
+	margin: 0 auto;
 }
 
-li a:hover {
-	background-color: rgba(255,255,255,0.4);
+#picturedescription {
+	background-color: red;
+	width: auto;
+
 }
 
-.box {
-	margin-top: 40px;
+h2 {
+	text-align: center;
+}
+
+
+h3 {
+	text-align: center;
+	color: #041e42;
+}
+
+#picturediv {
+	background-color: #d9f1f1;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+#birb {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+#garydos {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+#Greninja {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+
+#pikachonk {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+
+#shiny {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
 }
 
 #footer {
-	position: absolute;
-	bottom: 0vh;
-	width: 100vw;
-	margin: 0;
-	padding-top: 2vh;
-	padding-bottom: 2vh;
+	clear: both;
+	padding: 40px;
+	background-color: #95524c;
+	color: #b3e8ff;
 	text-align: center;
-	background-color: rgba(0,0,0,0.7);
 }
-
-#footer a {
-	color: #00FFF2;
-	/* background-color: rgba(0,0,0,0.7); */
-}
-
